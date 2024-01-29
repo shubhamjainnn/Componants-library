@@ -1,0 +1,87 @@
+:root {
+  --primary-color: rgb(192 38 211);
+  --background-color: rgb(147 51 234);
+  --secondary-color: black;
+}
+.card-container {
+  height: 30vh;
+}
+.side-bar ul {
+  height: 200vh;
+}
+/* basic-list-box */
+.basic-list-box {
+  border: 1px solid var(--secondary-color);
+  border-radius: 5px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+  font-size: 20px;
+  width: 250px;
+}
+.basic-list-sub {
+  position: relative;
+  bottom: 15px;
+  left: 10px;
+}
+
+.basic-list-title {
+  position: relative;
+  left: 10px;
+  margin-top: 20px;
+}
+.basic-list-item {
+  position: relative;
+  left: 20px;
+  border-left: 1px var(--secondary-color);
+}
+
+#list-icon-1 {
+  padding: 1rem;
+  font-size: 20px;
+  position: relative;
+  right: 20px;
+}
+#list-icon-2 {
+  padding: 1rem;
+  font-size: 20px;
+  position: relative;
+  right: 20px;
+}
+#list-icon-3 {
+  padding: 1rem;
+  font-size: 20px;
+  position: relative;
+  right: 20px;
+}
+#list-icon-4 {
+  padding: 1rem;
+  font-size: 20px;
+  position: relative;
+  right: 20px;
+}
+/* notification box` */
+
+.img {
+  border-radius: 50%;
+  width: 50px;
+  margin-bottom: 10px;
+}
+.notification-list-box {
+  border: 1px solid var(--secondary-color);
+  border-radius: 5px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+  font-size: 20px;
+  width: 490px;
+}
+.notification-list-mess {
+  position: relative;
+  bottom: 25px;
+  left: 25px;
+}

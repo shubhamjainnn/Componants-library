@@ -1,0 +1,54 @@
+:root {
+  --primary-color: rgb(192 38 211);
+  --background-color: rgb(147 51 234);
+  --secondary-color: black;
+  font-family: "Roboto", sans-serif;
+}
+
+.side-bar ul {
+  height: 120vh;
+}
+
+.footer {
+  margin-top: 600px;
+}
+.nav-sign-box {
+  margin-top: 100px;
+}
+.card-box {
+  height: 20vh;
+}
+/* new css */
+.rating-box {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.star {
+  font-size: 50px;
+}
+.output {
+  margin-top: 40px;
+  font-size: 20px;
+}
+.submit-btn {
+  padding: 0.5rem;
+  width: 70px;
+  text-align: center;
+  margin-top: 20px;
+  background-color: var(--secondary-color);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+.submit-btn:hover {
+  background-color: var(--primary-color);
+}
+.orange {
+  color: orange;
+}
+.greenyellow {
+  color: greenyellow;
+}

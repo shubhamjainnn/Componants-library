@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Input</title>
+    <link rel="stylesheet" href="./alert.css" />
+    <link rel="stylesheet" href="./input.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <h1 class="header">BuildX <span class="header-child">ui</span></h1>
+    <div class="side-box">
+      <nav class="search-box">
+        <input type="text" class="input" />
+        <a href="#" class="search-btn">
+          <i class="fa-solid fa-magnifying-glass"></i
+        ></a>
+      </nav>
+      <aside class="aside-bar">
+        <span class="version">V1.1</span>
+        <span class="docs">docs</span>
+        <a href="https://github.com/shubhamjainnn" class="github">Github</a>
+        <a href="" class="dark-mode"><i class="fa-regular fa-moon"></i></a>
+      </aside>
+    </div>
+    <div class="card-container">
+      <p class="card-details">what?</p>
+      <p class="card-details">Introduction</p>
+      <p class="card-details">When To Use?</p>
+      <p class="card-details">Login Form</p>
+      <p class="card-details">Check Box</p>
+      <p class="card-details">Radio box</p>
+      <p class="card-details">File Input & Date Time Input</p>
+    </div>
+    <div class="side-bar">
+      <ul class="list">
+        <li><a href="install.html">Installation</a></li>
+        <li><a href="typography.html">Typography</a></li>
+        <li><a href="./alert.html">Alert</a></li>
+        <li><a href="./avatar.html">Avatar</a></li>
+        <li><a href="./badge.html">Badge</a></li>
+        <li><a href="./button.html">Button</a></li>
+        <li><a href="./card.html">Card</a></li>
+        <li><a href="./grid.html">Grid</a></li>
+        <li><a href="./image.html">Image</a></li>
+        <li><a href="./input.html">Input</a></li>
+        <li><a href="./list.html">List</a></li>
+        <li><a href="./modal.html">Modal</a></li>
+        <li>
+          <a href="./navigation.html">Navigation</a>
+        </li>
+        <li><a href="./rating.html">Rating</a></li>
+        <li><a href="./slider.html">Slider</a></li>
+        <li><a href="./snackbar.html">Snackbar</a></li>
+      </ul>
+    </div>
+    <div class="carousel-btn-box">
+      <a href="./image.html"
+        ><button class="carousel-button-prev" data-carousel-button="prev">
+          &#8656;
+        </button></a
+      >
+      <a href="list.html"
+        ><button class="carousel-button-next" data-carousel-button="next">
+          &#8658;
+        </button></a
+      >
+    </div>
+    <div class="main-content">
+      <h1 class="heading-1">Input</h1>
+      <p class="para-1">
+        Input component is a component that is used to get user input in a text
+        field.A basic widget for getting the user input is a text field.
+        Keyboard and mouse can be used for providing or changing data.
+      </p>
+      <h1 class="heading-2">When To Use</h1>
+      <li class="para-2">A user input in a form field is needed.</li>
+      <li class="para-2">A search input is required.</li>
+      <div class="input-container">
+        <form>
+          <fieldset>
+            <legend>First Name</legend>
+            <input
+              type="text"
+              class="input-field"
+              placeholder="Put Your First Name Here"
+            />
+          </fieldset>
+          <fieldset>
+            <legend for="">Last Name</legend>
+            <input
+              type="text"
+              class="input-field"
+              placeholder="Enter Your Last Name"
+            />
+          </fieldset>
+          <fieldset>
+            <legend for="">Email-id</legend>
+            <input
+              type="text"
+              class="input-field"
+              placeholder="Enter Your Email-id"
+            />
+          </fieldset>
+          <fieldset>
+            <legend for="">Creat Password</legend>
+            <input
+              type="text"
+              class="input-field"
+              placeholder="Enter Your Password"
+            />
+          </fieldset>
+          <fieldset>
+            <legend for="">Confirm Password</legend>
+            <input
+              type="text"
+              class="input-field"
+              placeholder="Confirm Your Password"
+            />
+          </fieldset>
+          <button type="button" class="input-btn">Submit</button>
+        </form>
+      </div>
+      <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=auto&width=1280&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cform%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cfieldset%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clegend%253EFirst%2520Name%253C%252Flegend%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520type%253D%2522text%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522input-field%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520placeholder%253D%2522Put%2520Your%2520First%2520Name%2520Here%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ffieldset%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cfieldset%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clegend%2520for%253D%2522%2522%253ELast%2520Name%253C%252Flegend%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520type%253D%2522text%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522input-field%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520placeholder%253D%2522Enter%2520Your%2520Last%2520Name%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ffieldset%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cfieldset%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clegend%2520for%253D%2522%2522%253EEmail-id%253C%252Flegend%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520type%253D%2522text%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522input-field%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520placeholder%253D%2522Enter%2520Your%2520Email-id%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ffieldset%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cfieldset%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clegend%2520for%253D%2522%2522%253ECreat%2520Password%253C%252Flegend%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520type%253D%2522text%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522input-field%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520placeholder%253D%2522Enter%2520Your%2520Password%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ffieldset%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cfieldset%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clegend%2520for%253D%2522%2522%253EConfirm%2520Password%253C%252Flegend%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520type%253D%2522text%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522input-field%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520placeholder%253D%2522Confirm%2520Your%2520Password%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ffieldset%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522input-btn%2522%253ESubmit%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fform%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+        style="
+          width: 500px;
+          height: 200px;
+          margin-top: 20px;
+          margin-bottom: 20px;
+          border: 0;
+          transform: scale(1);
+          overflow: hidden;
+        "
+        sandbox="allow-scripts allow-same-origin"
+      >
+      </iframe>
+      <h1 class="heading-2">Login Form</h1>
+      <div class="input-container">
+        <fieldset>
+          <legend>E-mail</legend>
+          <input type="text" class="input-field" />
+        </fieldset>
+        <p style="color: red; margin-top: 10px; margin-bottom: 10px">
+          Password is incorrect
+        </p>
+        <fieldset>
+          <legend>Password</legend>
+          <input type="text" class="input-field" />
+        </fieldset>
+      </div>
+      <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=auto&width=1280&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cfieldset%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clegend%253EE-mail%253C%252Flegend%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input-field%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ffieldset%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520style%253D%2522color%253A%2520red%253B%2520margin-top%253A%252010px%253B%2520margin-bottom%253A%252010px%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Password%2520is%2520incorrect%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cfieldset%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clegend%253EPassword%253C%252Flegend%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input-field%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ffieldset%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+        style="
+          width: 500px;
+          height: 200px;
+          margin-top: 20px;
+          margin-bottom: 20px;
+          border: 0;
+          transform: scale(1);
+          overflow: hidden;
+        "
+        sandbox="allow-scripts allow-same-origin"
+      >
+      </iframe>
+      <div class="check-box">
+        <fieldset>
+          <legend>Check Box</legend>
+          <input type="checkbox" class="check-box-field" />A
+
+          <input type="checkbox" class="check-box-field" />B
+
+          <input type="checkbox" disabled class="check-box-field" />none
+          (Disabled)
+        </fieldset>
+      </div>
+      <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=auto&width=1280&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%253Cdiv%2520class%253D%2522check-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cfieldset%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clegend%253ECheck%2520Box%253C%252Flegend%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520disabled%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520none%2520%28Disabled%29%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ffieldset%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+        style="
+          width: 500px;
+          height: 200px;
+          margin-top: 20px;
+          margin-bottom: 20px;
+          border: 0;
+          transform: scale(1);
+          overflow: hidden;
+        "
+        sandbox="allow-scripts allow-same-origin"
+      >
+      </iframe>
+      <div class="radio-box">
+        <form action="">
+          <fieldset>
+            <legend>Radio Box</legend>
+            <input type="radio" class="check-box-field" />Male
+
+            <input type="radio" class="check-box-field" />Female
+            <input type="radio" disabled class="check-box-field" />Dont Know
+            (Disabled)
+          </fieldset>
+        </form>
+      </div>
+      <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=auto&width=1280&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522radio-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cform%2520action%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cfieldset%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clegend%253ERadio%2520Box%253C%252Flegend%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520class%253D%2522check-box-field%2522%2520%252F%253EMale%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520class%253D%2522check-box-field%2522%2520%252F%253EFemale%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520disabled%2520class%253D%2522check-box-field%2522%2520%252F%253EDont%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Know%2520%28Disabled%29%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ffieldset%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fform%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+        style="
+          width: 500px;
+          height: 200px;
+          margin-top: 20px;
+          margin-bottom: 20px;
+          border: 0;
+          transform: scale(1);
+          overflow: hidden;
+        "
+        sandbox="allow-scripts allow-same-origin"
+      >
+      </iframe>
+      <div class="file-date-box">
+        <form action="">
+          <fieldset>
+            <legend>File Input</legend>
+            <input type="file" class="file-date-field" />
+          </fieldset>
+          <fieldset>
+            <legend>Date Input</legend>
+            <input type="datetime-local" class="file-date-field" />
+          </fieldset>
+        </form>
+      </div>
+      <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=auto&width=1280&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522file-date-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cform%2520action%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cfieldset%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clegend%253EFile%2520Input%253C%252Flegend%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522file%2522%2520class%253D%2522file-date-field%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ffieldset%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cfieldset%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clegend%253EDate%2520Input%253C%252Flegend%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522datetime-local%2522%2520class%253D%2522file-date-field%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ffieldset%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fform%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+        style="
+          width: 500px;
+          height: 200px;
+          margin-top: 20px;
+          margin-bottom: 20px;
+          border: 0;
+          transform: scale(1);
+          overflow: hidden;
+        "
+        sandbox="allow-scripts allow-same-origin"
+      >
+      </iframe>
+      <div class="nav-sign-box">
+        <a href="./image.html" class="nav-sign-link-left">
+          <i class="fa-solid fa-caret-left"></i> Image
+        </a>
+        <a href="./list.html" class="nav-sign-link-right"
+          >List <i class="fa-solid fa-caret-right"></i
+        ></a>
+      </div>
+    </div>
+
+    <footer class="footer">
+      Created by Shubham jain
+      <div>
+        <a
+          class="footer-icon"
+          href="https://www.linkedin.com/in/shubham-jain-a5027824b/"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a class="footer-icon" href="https://github.com/shubhamjainnn"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+      </div>
+    </footer>
+  </body>
+</html>

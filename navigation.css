@@ -1,0 +1,51 @@
+:root {
+  --primary-color: rgb(192 38 211);
+  --background-color: rgb(147 51 234);
+  --secondary-color: black;
+  font-family: "Roboto", sans-serif;
+}
+.card-box {
+  height: 25vh;
+}
+.side-bar ul {
+  height: 160vh;
+}
+.footer {
+  margin-top: 900px;
+}
+/* new css */
+
+.navigation-container {
+  margin-top: 20px;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.nav-search-box {
+  font-size: 20px;
+  position: relative;
+  left: 20px;
+  right: 20px;
+}
+.input {
+  font-size: 20px;
+}
+.search-btn {
+  font-size: 20px;
+}
+#nav-icon {
+  font-size: 20px;
+  padding: 1rem;
+}
+#nav-icon:hover {
+  color: var(--primary-color);
+}
+.nav-brand {
+  text-decoration: none;
+}

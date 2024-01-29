@@ -1,0 +1,325 @@
+:root {
+  --primary-color: rgb(192 38 211);
+  --background-color: rgb(147 51 234);
+  --secondary-color: black;
+  font-family: "Roboto", sans-serif;
+}
+.card-container {
+  width: 200px;
+}
+.side-bar ul {
+  height: 600vh;
+}
+/* new css----- */
+.para-2 {
+  width: 70%;
+}
+.points {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 20px;
+}
+.btn-box {
+  margin-top: 20px;
+  border: 1px solid var(--primary-color);
+  width: 400px;
+  height: 200px;
+}
+
+.main-btn-box {
+  margin-top: 30px;
+  margin-left: 30px;
+  padding: 0.9rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.primary {
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 0.9rem;
+  background-color: var(--primary-color);
+}
+.primary:hover {
+  color: var(--background-color);
+  background-color: aliceblue;
+}
+.secondary {
+  color: var(--secondary-color);
+  border-radius: 5px;
+  border: 1px solid var(--primary-color);
+  padding: 0.9rem;
+}
+.secondary:hover {
+  color: var(--background-color);
+  background-color: aliceblue;
+}
+.text {
+  color: var(--primary-color);
+  border-radius: 5px;
+  border: none;
+  padding: 0.9rem;
+}
+.text:hover {
+  color: var(--background-color);
+  background-color: aliceblue;
+}
+.disabled {
+  color: white;
+  border-radius: 5px;
+  border: 1px solid var(--secondary-color);
+  padding: 0.9rem;
+
+  background-color: gray;
+}
+.disabled:hover {
+  color: var(--secondary-color);
+}
+.outlined {
+  color: white;
+  border-radius: 5px;
+  border: 1px solid var(--secondary-color);
+  padding: 0.9rem;
+
+  background-color: var(--background-color);
+}
+.outlined:hover {
+  color: var(--background-color);
+  background-color: aliceblue;
+}
+.dashed {
+  color: white;
+  border-radius: 5px;
+  border-style: dashed;
+  padding: 0.9rem;
+
+  background-color: rgb(98, 81, 81);
+}
+.dashed:hover {
+  color: var(--background-color);
+  background-color: aliceblue;
+}
+/* color btn css======= */
+
+.color-btn-box {
+  margin-top: 20px;
+  border: 1px solid var(--primary-color);
+  width: 370px;
+  height: 100px;
+  text-align: center;
+}
+.green-btn {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  border-radius: 5px;
+  padding: 0.6rem;
+  background-color: green;
+}
+.green-btn:hover {
+  color: var(--background-color);
+  background-color: aliceblue;
+}
+.error-btn {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  border-radius: 5px;
+  border-style: dashed;
+  padding: 0.6rem;
+  background-color: red;
+}
+.error-btn:hover {
+  color: var(--background-color);
+  background-color: aliceblue;
+}
+.warning-btn {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: black;
+  border-radius: 5px;
+  padding: 0.5rem;
+  background-color: yellow;
+}
+.warning-btn:hover {
+  color: var(--background-color);
+  background-color: aliceblue;
+}
+.success-btn {
+  color: white;
+  border-radius: 5px;
+  padding: 0.5rem;
+  background-color: blue;
+}
+.success-btn:hover {
+  color: var(--background-color);
+  background-color: aliceblue;
+}
+
+/* size btn=============== */
+
+.size-btn-box {
+  margin-top: 20px;
+  border: 1px solid var(--primary-color);
+  width: 400px;
+  height: 200px;
+  text-align: center;
+}
+
+.large-btn {
+  margin-top: 40px;
+  margin-left: 5px;
+  margin-right: 10px;
+  padding: 1rem 3rem;
+  color: white;
+  border-radius: 5px;
+  background-color: #9494b8;
+}
+.medium-btn {
+  margin-right: 10px;
+  padding: 0.5rem 1rem;
+  color: white;
+  border-radius: 5px;
+  background-color: #727272;
+}
+.small-btn {
+  margin-right: 10px;
+  font-size: small;
+  padding: 0.3rem 1rem;
+  color: white;
+  border-radius: 5px;
+  background-color: #879f97;
+}
+/* size ---btn-----2 */
+
+.large-btn-2 {
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 1rem 3rem;
+  color: var(--primary-color);
+  border-radius: 5px;
+  background-color: #e4e4e4;
+}
+.medium-btn-2 {
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 0.5rem 1rem;
+  color: var(--primary-color);
+  border-radius: 5px;
+  background-color: #d7e9e7;
+}
+.small-btn-2 {
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: small;
+  padding: 0.3rem 1rem;
+  color: var(--primary-color);
+  border-radius: 5px;
+  background-color: rgb(241, 241, 247);
+}
+/* link btn------- */
+
+.link-btn-box {
+  text-align: center;
+  margin-top: 20px;
+  border: 1px solid var(--primary-color);
+  width: 40vw;
+  height: 10vh;
+  border-radius: 10px;
+}
+.link-btn {
+  margin-top: 40px;
+  text-decoration: none;
+  font-size: 30px;
+  text-align: center;
+  position: relative;
+  top: 15px;
+  font-family: swap;
+}
+.link-btn-box:hover {
+  background-color: var(--primary-color);
+}
+
+/* icon---------- */
+
+.icon-box {
+  font-size: 70px;
+  text-align: center;
+  margin-top: 20px;
+  border: 1px solid var(--primary-color);
+  width: 600px;
+  height: 15vh;
+  border-radius: 10px;
+}
+
+.icons {
+  margin-top: 15px;
+}
+
+/* btn-with-icon-box----------- */
+
+.btn-with-icon-box {
+  font-size: 60px;
+  text-align: center;
+  margin-top: 20px;
+  width: 500px;
+  height: 15vh;
+  border-radius: 10px;
+  border: 1px solid var(--primary-color);
+}
+
+.mail-btn {
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  border: none;
+  padding: 0.5rem;
+}
+.upload-btn {
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  border: none;
+  padding: 0.5rem;
+}
+.camera-btn {
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  border: none;
+  padding: 0.5rem;
+}
+.qr-code-btn {
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  border: none;
+  padding: 0.5rem;
+}
+.btn-with-icon {
+  position: relative;
+  bottom: 10px;
+  right: 15px;
+}
+/* floating-btn-img----------- */
+
+.floating-btn-img {
+  width: 400px;
+  position: relative;
+  top: 40px;
+  border: 1px solid var(--primary-color);
+}
+.floating-btn {
+  color: white;
+  text-decoration: none;
+  background-color: var(--secondary-color);
+  position: relative;
+  right: 350px;
+  border-radius: 5px;
+  padding: 1rem;
+  border: none;
+}
+.floating-btn:hover {
+  background-color: var(--primary-color);
+}

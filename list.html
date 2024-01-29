@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>List</title>
+    <link rel="stylesheet" href="./alert.css" />
+    <link rel="stylesheet" href="./list.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <h1 class="header">BuildX <span class="header-child">ui</span></h1>
+    <div class="side-box">
+      <nav class="search-box">
+        <input type="text" class="input" />
+        <a href="#" class="search-btn">
+          <i class="fa-solid fa-magnifying-glass"></i
+        ></a>
+      </nav>
+      <aside class="aside-bar">
+        <span class="version">V1.1</span>
+        <span class="docs">docs</span>
+        <a href="https://github.com/shubhamjainnn" class="github">Github</a>
+        <a href="" class="dark-mode"><i class="fa-regular fa-moon"></i></a>
+      </aside>
+    </div>
+    <div class="card-container">
+      <p class="card-details">what?</p>
+      <p class="card-details">Introduction</p>
+      <p class="card-details">Basic List</p>
+      <p class="card-details">Notification Bars</p>
+    </div>
+    <div class="side-bar">
+      <ul class="list">
+        <li><a href="install.html">Installation</a></li>
+        <li><a href="typography.html">Typography</a></li>
+        <li><a href="./alert.html">Alert</a></li>
+        <li><a href="./avatar.html">Avatar</a></li>
+        <li><a href="./badge.html">Badge</a></li>
+        <li><a href="./button.html">Button</a></li>
+        <li><a href="./card.html">Card</a></li>
+        <li><a href="./grid.html">Grid</a></li>
+        <li><a href="./image.html">Image</a></li>
+        <li><a href="./input.html">Input</a></li>
+        <li><a href="./list.html">List</a></li>
+        <li><a href="./modal.html">Modal</a></li>
+        <li>
+          <a href="./navigation.html">Navigation</a>
+        </li>
+        <li><a href="./rating.html">Rating</a></li>
+        <li><a href="./slider.html">Slider</a></li>
+        <li><a href="./snackbar.html">Snackbar</a></li>
+      </ul>
+    </div>
+    <div class="carousel-btn-box">
+      <a href="./input.html"
+        ><button class="carousel-button-prev" data-carousel-button="prev">
+          &#8656;
+        </button></a
+      >
+      <a href="modal.html"
+        ><button class="carousel-button-next" data-carousel-button="next">
+          &#8658;
+        </button></a
+      >
+    </div>
+    <div class="main-content">
+      <h1 class="heading-1">List</h1>
+      <p class="para-1">
+        Lists are a continuous group of text or images. They are composed of
+        items containing primary and supplemental actions, which are represented
+        by icons and text.
+      </p>
+      <h1 class="heading-2">Basic List</h1>
+      <div class="basic-list-box">
+        <h2 class="basic-list-title">Title</h2>
+        <small class="basic-list-sub">subtext</small>
+        <p class="basic-list-item">
+          <i id="list-icon-1" class="fa-solid fa-inbox"></i> Inbox
+        </p>
+        <p class="basic-list-item">
+          <i id="list-icon-2" class="fa-regular fa-star"></i> Star
+        </p>
+        <p class="basic-list-item">
+          <i id="list-icon-3" class="fa-regular fa-paper-plane"></i> Sent Mail
+        </p>
+        <p class="basic-list-item">
+          <i id="list-icon-4" class="fa-brands fa-firstdraft"></i> Drafts
+        </p>
+      </div>
+      <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=auto&width=1280&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522basic-list-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522basic-list-title%2522%253ETitle%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%2520class%253D%2522basic-list-sub%2522%253Esubtext%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522basic-list-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520id%253D%2522list-icon-1%2522%2520class%253D%2522fa-solid%2520fa-inbox%2522%253E%253C%252Fi%253E%2520Inbox%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522basic-list-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520id%253D%2522list-icon-2%2522%2520class%253D%2522fa-regular%2520fa-star%2522%253E%253C%252Fi%253E%2520Star%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522basic-list-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520id%253D%2522list-icon-3%2522%2520class%253D%2522fa-regular%2520fa-paper-plane%2522%253E%253C%252Fi%253E%2520Sent%2520Mail%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522basic-list-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520id%253D%2522list-icon-4%2522%2520class%253D%2522fa-brands%2520fa-firstdraft%2522%253E%253C%252Fi%253E%2520Drafts%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+        style="
+          width: 500px;
+          height: 200px;
+
+          border: 0;
+          transform: scale(1);
+          overflow: hidden;
+        "
+        sandbox="allow-scripts allow-same-origin"
+      >
+      </iframe>
+      <div class="notification-list-box">
+        <h2 class="basic-list-title">Notifications</h2>
+        <small class="basic-list-sub">someone has sent you a message</small>
+        <p class="basic-list-item">
+          <img
+            class="img"
+            src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+            alt=""
+          />
+          <span class="notification-list-mess">Peter send you a message</span>
+        </p>
+        <p class="basic-list-item">
+          <img
+            class="img"
+            src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+            alt=""
+          />
+          <span class="notification-list-mess"
+            >neena has tagged you in a post</span
+          >
+        </p>
+        <p class="basic-list-item">
+          <img
+            class="img"
+            src="https://filmfare.wwmindia.com/content/2018/apr/21524834225.jpg"
+            alt=""
+          />
+          <span class="notification-list-mess"> Race 3 trailer out today</span>
+        </p>
+        <p class="basic-list-item">
+          <img
+            class="img"
+            src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+            alt=""
+          />
+          <span class="notification-list-mess"> Shawn got promotion</span>
+        </p>
+      </div>
+      <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=auto&width=1280&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522notification-list-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522basic-list-title%2522%253ENotifications%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%2520class%253D%2522basic-list-sub%2522%253Esomeone%2520has%2520sent%2520you%2520a%2520message%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522basic-list-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522img%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fimages.unsplash.com%252Fphoto-1491528323818-fdd1faba62cc%253Fixlib%253Drb-1.2.1%2526ixid%253DeyJhcHBfaWQiOjEyMDd9%2526auto%253Dformat%2526fit%253Dfacearea%2526facepad%253D2%2526w%253D256%2526h%253D256%2526q%253D80%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522notification-list-mess%2522%253EPeter%2520send%2520you%2520a%2520message%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522basic-list-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522img%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fimages.unsplash.com%252Fphoto-1550525811-e5869dd03032%253Fixlib%253Drb-1.2.1%2526auto%253Dformat%2526fit%253Dfacearea%2526facepad%253D2%2526w%253D256%2526h%253D256%2526q%253D80%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522notification-list-mess%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Eneena%2520has%2520tagged%2520you%2520in%2520a%2520post%253C%252Fspan%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522basic-list-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522img%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Ffilmfare.wwmindia.com%252Fcontent%252F2018%252Fapr%252F21524834225.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522notification-list-mess%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Race%25203%2520trailer%2520out%2520today%253C%252Fspan%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522basic-list-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522img%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fimages.unsplash.com%252Fphoto-1472099645785-5658abf4ff4e%253Fixlib%253Drb-1.2.1%2526ixid%253DeyJhcHBfaWQiOjEyMDd9%2526auto%253Dformat%2526fit%253Dfacearea%2526facepad%253D2%2526w%253D256%2526h%253D256%2526q%253D80%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522notification-list-mess%2522%253E%2520Shawn%2520got%2520promotion%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+        style="
+          width: 500px;
+          height: 200px;
+
+          border: 0;
+          transform: scale(1);
+          overflow: hidden;
+        "
+        sandbox="allow-scripts allow-same-origin"
+      >
+      </iframe>
+      <div class="nav-sign-box">
+        <a href="./input.html" class="nav-sign-link-left">
+          <i class="fa-solid fa-caret-left"></i> Input
+        </a>
+        <a href="./modal.html" class="nav-sign-link-right"
+          >Modal <i class="fa-solid fa-caret-right"></i
+        ></a>
+      </div>
+    </div>
+
+    <footer class="footer">
+      Created by Shubham jain
+      <div>
+        <a
+          class="footer-icon"
+          href="https://www.linkedin.com/in/shubham-jain-a5027824b/"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a class="footer-icon" href="https://github.com/shubhamjainnn"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+      </div>
+    </footer>
+  </body>
+</html>

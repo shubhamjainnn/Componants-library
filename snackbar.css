@@ -1,0 +1,281 @@
+:root {
+  --primary-color: rgb(192 38 211);
+  --background-color: rgb(147 51 234);
+  --secondary-color: black;
+  font-family: "Roboto", sans-serif;
+}
+
+.card-container {
+  width: 200px;
+}
+.side-bar ul {
+  height: 250vh;
+}
+/* new css */
+.snackbar-container {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  border: 1px solid var(--primary-color);
+  width: 50vw;
+  height: 100px;
+  border-radius: 5px;
+}
+
+.snackbar-mail-btn {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.8rem 2rem;
+  color: white;
+  font-size: 15px;
+  border-radius: none;
+  background-color: var(--primary-color);
+  border: none;
+}
+.snackbar-mail-btn:hover {
+  background-color: var(--secondary-color);
+}
+.snackbar-mail-btn:focus {
+  background-color: var(--secondary-color);
+}
+.snackbar-cart-btn {
+  padding: 0.8rem 1.5rem;
+  color: white;
+  font-size: 15px;
+  background-color: var(--primary-color);
+  border: none;
+}
+.snackbar-cart-btn:hover {
+  background-color: var(--secondary-color);
+}
+.snackbar-cart-btn:focus {
+  background-color: var(--secondary-color);
+}
+/* txt box/ */
+
+.mail-txt-box {
+  background-color: #aaaaaa;
+  display: flex;
+  padding: 1rem 1rem;
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  margin-top: 260px;
+  visibility: hidden;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 1rem 1rem rgb(255, 253, 253), 0 1rem 1rem rgba(0, 0, 0, 0.24);
+}
+.snackbar-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart-txt-box {
+  background-color: #aaaaaa;
+  display: flex;
+  position: absolute;
+  z-index: 1;
+  margin-top: 260px;
+  visibility: hidden;
+  padding: 1rem 1rem;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 1rem 1rem rgb(255, 253, 253), 0 1rem 1rem rgba(0, 0, 0, 0.24);
+}
+/* toast css */
+
+.toast-btn {
+  background-color: var(--primary-color);
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0.5rem 2rem;
+  color: white;
+}
+.toast-btn:hover {
+  background-color: var(--secondary-color);
+}
+.toast-btn:focus {
+  background-color: var(--secondary-color);
+}
+.toast-container {
+  visibility: hidden;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  font-size: small;
+  border: 1px solid var(--primary-color);
+  width: 400px;
+  height: 60px;
+  border-radius: 5px;
+  font-family: swap;
+  color: white;
+  background-color: var(--secondary-color);
+}
+
+.toast-container h3 {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.retry {
+  color: blueviolet;
+  position: relative;
+  left: 20px;
+  font-size: 15px;
+}
+.cross-icon {
+  background-color: var(--secondary-color);
+  position: relative;
+  left: 70px;
+  bottom: 8px;
+  border-radius: 50%;
+  padding: 0.5rem;
+  color: white;
+  float: right;
+  box-shadow: 0.1rem 0.1rem rgb(219, 213, 224), 0 1rem 1rem rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+}
+.cross-icon:hover {
+  color: var(--primary-color);
+}
+
+/* position css */
+
+.position-container {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.top-l-btn {
+  background-color: var(--primary-color);
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0.5rem 2rem;
+  color: white;
+}
+.top-l-btn:hover {
+  background-color: var(--secondary-color);
+}
+.top-l-btn:focus {
+  background-color: var(--secondary-color);
+}
+
+.top-r-btn {
+  background-color: var(--primary-color);
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0.5rem 2rem;
+  color: white;
+}
+.top-r-btn:hover {
+  background-color: var(--secondary-color);
+}
+.top-r-btn:focus {
+  background-color: var(--secondary-color);
+}
+
+.bottom-l-btn {
+  background-color: var(--primary-color);
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0.5rem 2rem;
+  color: white;
+}
+.bottom-l-btn:hover {
+  background-color: var(--secondary-color);
+}
+.bottom-l-btn:focus {
+  background-color: var(--secondary-color);
+}
+.bottom-r-btn {
+  background-color: var(--primary-color);
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0.5rem 2rem;
+  color: white;
+}
+.bottom-r-btn:hover {
+  background-color: var(--secondary-color);
+}
+.bottom-r-btn:focus {
+  background-color: var(--secondary-color);
+}
+/* snackbars */
+.top-l-snack {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  width: 140px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin-top: 20px;
+  margin-left: 20px;
+  border-radius: 5px;
+  font-family: swap;
+  background-color: var(--secondary-color);
+  color: white;
+}
+.top-r-snack {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  width: 140px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin-top: 20px;
+  margin-right: 20px;
+  border-radius: 5px;
+  font-family: swap;
+  background-color: var(--secondary-color);
+  color: white;
+}
+.bottom-l-snack {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  width: 140px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  border-radius: 5px;
+  font-family: swap;
+  background-color: var(--secondary-color);
+  color: white;
+}
+.bottom-r-snack {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  width: 140px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  border-radius: 5px;
+  font-family: swap;
+  background-color: var(--secondary-color);
+  color: white;
+}

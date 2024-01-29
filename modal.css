@@ -1,0 +1,184 @@
+:root {
+  --primary-color: rgb(192 38 211);
+  --background-color: rgb(147 51 234);
+  --secondary-color: black;
+  font-family: "Roboto", sans-serif;
+}
+.card-box {
+  height: 25vh;
+}
+/* new css */
+
+.open-btn {
+  text-decoration: none;
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  position: relative;
+  top: 170px;
+  cursor: pointer;
+}
+.open-btn:hover {
+  background-color: var(--primary-color);
+}
+.popup-container {
+  margin-top: 180px;
+  visibility: hidden;
+  border: 1px solid var(--primary-color);
+  width: 60%;
+  height: 20vh;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.12);
+  position: relative;
+  z-index: 1;
+  background-color: white;
+  color: rgb(85, 104, 103);
+}
+
+h3 {
+  margin-top: 10px;
+}
+
+.yes-btn {
+  text-decoration: none;
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  position: relative;
+  top: 30px;
+  cursor: pointer;
+}
+.yes-btn:hover {
+  background-color: var(--primary-color);
+}
+.no-btn {
+  text-decoration: none;
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  position: relative;
+  top: 30px;
+  cursor: pointer;
+}
+.no-btn:hover {
+  background-color: var(--primary-color);
+}
+
+/* nested */
+.nested-box {
+  position: relative;
+  bottom: 150px;
+}
+.show-mess-btn {
+  text-decoration: none;
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  position: relative;
+  top: 20px;
+  cursor: pointer;
+}
+.show-mess-btn:hover {
+  background-color: var(--primary-color);
+}
+.message-container {
+  margin-top: 40px;
+  visibility: hidden;
+  border: 1px solid var(--primary-color);
+  width: 60%;
+  height: 20vh;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.12);
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+  color: rgb(85, 104, 103);
+}
+
+h3 {
+  margin-top: 10px;
+}
+
+.play-btn {
+  text-decoration: none;
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  position: relative;
+  top: 30px;
+  cursor: pointer;
+}
+.play-btn:hover {
+  background-color: var(--primary-color);
+}
+.not-btn {
+  text-decoration: none;
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  position: relative;
+  top: 30px;
+  cursor: pointer;
+}
+.not-btn:hover {
+  background-color: var(--primary-color);
+}
+/* --------------- */
+
+.game-container {
+  margin-top: 40px;
+  visibility: hidden;
+  border: 1px solid var(--primary-color);
+  width: 60%;
+  height: 20vh;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.12);
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+  color: rgb(85, 104, 103);
+}
+
+h3 {
+  margin-top: 10px;
+}
+
+.start-btn {
+  text-decoration: none;
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  position: relative;
+  top: 30px;
+  cursor: pointer;
+}
+.start-btn:hover {
+  background-color: var(--primary-color);
+}
+.end-btn {
+  text-decoration: none;
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  position: relative;
+  top: 30px;
+  cursor: pointer;
+}
+.end-btn:hover {
+  background-color: var(--primary-color);
+}
+.card-popup {
+  position: relative;
+  bottom: 180px;
+}

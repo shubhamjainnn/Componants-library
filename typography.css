@@ -1,0 +1,60 @@
+:root {
+  --primary-color: rgb(192 38 211);
+}
+
+.heading-box {
+  width: 45%;
+  border: 1px solid var(--primary-color);
+  text-align: center;
+  font-size: larger;
+  height: 45vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.heading-box::first-letter {
+  color: var(--primary-color);
+}
+
+.para-heading::first-letter {
+  color: var(--primary-color);
+}
+.para-box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.para-left {
+  text-align: left;
+  border: 0.5px solid var(--primary-color);
+  width: 30%;
+  padding: 1rem;
+}
+.para-right {
+  text-align: right;
+  border: 0.5px solid var(--primary-color);
+  width: 30%;
+  padding: 1rem;
+}
+.para-center {
+  text-align: center;
+  border: 0.5px solid var(--primary-color);
+  width: 30%;
+  padding: 1rem;
+}
+.para-small {
+  text-align: center;
+  border: 0.5px solid var(--primary-color);
+  width: 30%;
+  padding: 0.5rem 1rem;
+  font-size: small;
+}
+.para-grey {
+  text-align: right;
+  border: 0.5px solid var(--primary-color);
+  width: 30%;
+  padding: 1rem;
+  color: grey;
+}
+
+/* new css------------ */

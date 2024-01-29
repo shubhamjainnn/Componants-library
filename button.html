@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Button</title>
+    <link rel="stylesheet" href="./alert.css" />
+    <link rel="stylesheet" href="./button.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <h1 class="header">BuildX <span class="header-child">ui</span></h1>
+    <div class="side-box">
+      <nav class="search-box">
+        <input type="text" class="input" />
+        <a href="#" class="search-btn">
+          <i class="fa-solid fa-magnifying-glass"></i
+        ></a>
+      </nav>
+      <aside class="aside-bar">
+        <span class="version">V1.1</span>
+        <span class="docs">docs</span>
+        <a href="https://github.com/shubhamjainnn" class="github">Github</a>
+        <a href="" class="dark-mode"><i class="fa-regular fa-moon"></i></a>
+        <div class="card-container">
+          <p class="card-details">what?</p>
+          <p class="card-details">Introduction</p>
+          <p class="card-details">Basis</p>
+          <p class="card-details">Color</p>
+          <p class="card-details">size</p>
+          <p class="card-details">Like-Button</p>
+          <p class="card-details">icon</p>
+          <p class="card-details">Button with icon & label</p>
+          <p class="card-details">Floating Button</p>
+        </div>
+      </aside>
+    </div>
+
+    <div class="side-bar">
+      <ul class="list">
+        <li><a href="install.html">Installation</a></li>
+        <li><a href="typography.html">Typography</a></li>
+        <li><a href="./alert.html">Alert</a></li>
+        <li><a href="./avatar.html">Avatar</a></li>
+        <li><a href="./badge.html">Badge</a></li>
+        <li><a href="./button.html">Button</a></li>
+        <li><a href="./card.html">Card</a></li>
+        <li><a href="./grid.html">Grid</a></li>
+        <li><a href="./image.html">Image</a></li>
+        <li><a href="./input.html">Input</a></li>
+        <li><a href="./list.html">List</a></li>
+        <li><a href="./modal.html">Modal</a></li>
+        <li>
+          <a href="./navigation.html">Navigation</a>
+        </li>
+        <li><a href="./rating.html">Rating</a></li>
+        <li><a href="./slider.html">Slider</a></li>
+        <li><a href="./snackbar.html">Snackbar</a></li>
+      </ul>
+    </div>
+
+    <div class="main-content">
+      <h1 class="heading-1">Button</h1>
+      <p class="para-1">
+        Buttons allow users to take actions,and make choices, with a single
+        tap.Buttons communicate actions that users can take.
+      </p>
+
+      <h1 class="heading-2">Basic</h1>
+      <p class="para-2">
+        A button means an operation (or a series of operations). Clicking a
+        button will trigger corresponding business logic
+      </p>
+
+      <ul class="points">
+        <li>
+          Primary button: indicate the main action, one primary button at most
+          in one section.
+        </li>
+        <li>Default button: indicate a series of actions without priority.</li>
+        <li>Dashed button: used for adding action commonly.</li>
+        <li>Dashed button: used for adding action commonly.</li>
+      </ul>
+      <div class="btn-box">
+        <div class="main-btn-box">
+          <button class="primary">Primary</button>
+          <button class="secondary">Secondary</button
+          ><button class="text">Text</button>
+          <button class="disabled">Disabled</button
+          ><button class="outlined">Outlined</button>
+          <button class="dashed">dashed</button>
+        </div>
+      </div>
+      <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=auto&width=1280&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522btn-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522primary%2522%253EPrimary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522secondary%2522%253ESecondary%253C%252Fbutton%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%253Cbutton%2520class%253D%2522text%2522%253EText%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522disabled%2522%253EDisabled%253C%252Fbutton%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%253Cbutton%2520class%253D%2522outlined%2522%253EOutlined%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522dashed%2522%253Edashed%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+        style="
+          width: 500px;
+          height: 200px;
+          margin-top: 20px;
+          margin-bottom: 20px;
+          border: 0;
+          transform: scale(1);
+          overflow: hidden;
+        "
+        sandbox="allow-scripts allow-same-origin"
+      >
+      </iframe>
+      <h1 class="heading-2">Colors</h1>
+      <p class="para-2">
+        Buttons having different Color shows different meaning
+      </p>
+
+      <ul class="points">
+        <li>
+          Danger: used for actions of risk, like deletion or authorization..
+        </li>
+        <li>Success: used for actions which is successfully done.</li>
+      </ul>
+      <div class="color-btn-box">
+        <button class="green-btn">Green</button>
+        <button class="error-btn">Error</button
+        ><button class="warning-btn">Warning</button>
+        <button class="success-btn">Success</button>
+      </div>
+      <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=auto&width=1280&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522color-btn-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522green-btn%2522%253EGreen%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522error-btn%2522%253EError%253C%252Fbutton%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%253Cbutton%2520class%253D%2522warning-btn%2522%253EWarning%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522success-btn%2522%253ESuccess%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+        style="
+          width: 500px;
+          height: 200px;
+          margin-top: 20px;
+          margin-bottom: 20px;
+          border: 0;
+          transform: scale(1);
+          overflow: hidden;
+        "
+        sandbox="allow-scripts allow-same-origin"
+      >
+      </iframe>
+      <h1 class="heading-2">Size</h1>
+      <p class="para-2">
+        Ant Design supports a default button size as well as a large and small
+        size. If a large or small button is desired, set the size property to
+        either large or small respectively. Omit the size property for a button
+        with the default size.
+      </p>
+
+      <div class="size-btn-box">
+        <button class="large-btn">Large</button>
+        <button class="medium-btn">Medium</button
+        ><button class="small-btn">Samall</button>
+        <button class="large-btn-2">Large</button>
+        <button class="medium-btn-2">Medium</button
+        ><button class="small-btn-2">Samall</button>
+      </div>
+      <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=auto&width=1280&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522size-btn-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522large-btn%2522%253ELarge%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522medium-btn%2522%253EMedium%253C%252Fbutton%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%253Cbutton%2520class%253D%2522small-btn%2522%253ESamall%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522large-btn-2%2522%253ELarge%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522medium-btn-2%2522%253EMedium%253C%252Fbutton%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%253Cbutton%2520class%253D%2522small-btn-2%2522%253ESamall%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+        style="
+          width: 500px;
+          height: 200px;
+          margin-top: 20px;
+          margin-bottom: 20px;
+          border: 0;
+          transform: scale(1);
+          overflow: hidden;
+        "
+        sandbox="allow-scripts allow-same-origin"
+      >
+      </iframe>
+      <h1 class="heading-2">Link Button</h1>
+      <p class="para-2">Link Button is used for external links</p>
+      <div class="link-btn-box">
+        <a class="link-btn" href="">Link Button</a>
+      </div>
+      <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=auto&width=1280&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522link-btn-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522link-btn%2522%2520href%253D%2522%2522%253ELink%2520Button%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+        style="
+          width: 500px;
+          height: 200px;
+          margin-top: 20px;
+          margin-bottom: 20px;
+          border: 0;
+          transform: scale(1);
+          overflow: hidden;
+        "
+        sandbox="allow-scripts allow-same-origin"
+      >
+      </iframe>
+      <h1 class="heading-2">Icons</h1>
+      <p class="para-2">
+        Button components can contain an Icon. This is done by setting the icon
+        property or placing an Icon component within the Button. If you want
+        specific control over the positioning and placement of the Icon, then
+        that should be done by placing the Icon component within the Button
+        rather than using the icon property.
+      </p>
+      <div class="icon-box">
+        <div class="icons">
+          <span><i class="fa-solid fa-upload"></i> </span>
+          <span><i class="fa-solid fa-triangle-exclamation"></i> </span>
+          <span> <i class="fa-solid fa-star"></i> </span>
+          <span><i class="fa-regular fa-thumbs-up"></i> </span>
+          <span><i class="fa-regular fa-thumbs-down"></i> </span>
+        </div>
+      </div>
+      <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=auto&width=1280&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522icon-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%253Ci%2520class%253D%2522fa-solid%2520fa-upload%2522%253E%253C%252Fi%253E%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%253Ci%2520class%253D%2522fa-solid%2520fa-triangle-exclamation%2522%253E%253C%252Fi%253E%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fwww.google.com%252Fimgres%253Fimgurl%253Dhttps%25253A%25252F%25252Fcdn.iconscout.com%25252Ficon%25252Fpremium%25252Fpng-256-thumb%25252Fadd-notification-1579090-1342836.png%2526tbnid%253DUOvNEdi1SN4MkM%2526vet%253D12ahUKEwi-8Mu_39qDAxVe56ACHaTWAK4QMygAegQIARBS..i%2526imgrefurl%253Dhttps%25253A%25252F%25252Ficonscout.com%25252Ficon%25252Fadd-notification-1579090%2526docid%253DiL7xyXP3rkWlxM%2526w%253D256%2526h%253D256%2526itg%253D1%2526q%253Dadd%252520notification%252520icon%2526ved%253D2ahUKEwi-8Mu_39qDAxVe56ACHaTWAK4QMygAegQIARBS%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%2520%253Ci%2520class%253D%2522fa-solid%2520fa-star%2522%253E%253C%252Fi%253E%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%253Ci%2520class%253D%2522fa-regular%2520fa-thumbs-up%2522%253E%253C%252Fi%253E%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%253Ci%2520class%253D%2522fa-regular%2520fa-thumbs-down%2522%253E%253C%252Fi%253E%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+        style="
+          width: 500px;
+          height: 200px;
+          margin-top: 20px;
+          margin-bottom: 20px;
+          border: 0;
+          transform: scale(1);
+          overflow: hidden;
+        "
+        sandbox="allow-scripts allow-same-origin"
+      >
+      </iframe>
+      <h1 class="heading-2">Buttons With Icon & Label</h1>
+      <p class="para-2">Buttons with icons</p>
+      <div class="btn-with-icon-box">
+        <div class="btn-with-icon">
+          <button class="mail-btn">
+            <i class="fa-regular fa-envelope"></i> Mail
+          </button>
+          <button class="upload-btn">
+            <i class="fa-solid fa-arrow-up-from-bracket"></i> Upload
+          </button>
+          <button class="camera-btn">
+            <i class="fa-solid fa-camera"></i> Camera
+          </button>
+          <button class="qr-code-btn">
+            <i class="fa-solid fa-qrcode"></i> QR CODE
+          </button>
+        </div>
+      </div>
+      <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=auto&width=1280&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%253Cdiv%2520class%253D%2522btn-with-icon-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522btn-with-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522mail-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-regular%2520fa-envelope%2522%253E%253C%252Fi%253E%2520Mail%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522upload-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-arrow-up-from-bracket%2522%253E%253C%252Fi%253E%2520Upload%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522camera-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-camera%2522%253E%253C%252Fi%253E%2520Camera%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522qr-code-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-qrcode%2522%253E%253C%252Fi%253E%2520QR%2520CODE%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+        style="
+          width: 500px;
+          height: 200px;
+          margin-top: 20px;
+          margin-bottom: 20px;
+          border: 0;
+          transform: scale(1);
+          overflow: hidden;
+        "
+        sandbox="allow-scripts allow-same-origin"
+      >
+      </iframe>
+      <h1 class="heading-1">Floating Button</h1>
+      <p class="para-1">
+        A floating action button (FAB) performs the primary, or most common,
+        action on a screen. It appears in front of all screen content, typically
+        as a circular shape with an icon in its center.
+      </p>
+      <div class="floating-btn-box">
+        <img
+          class="floating-btn-img"
+          src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/26539330/2023/12/20/451238db-6754-4f3b-a3c4-1f336415abd61703062946500HouseofPataudiMenMaroonFauxLeatherCasualSlipOnMojaris1.jpg"
+          alt=""
+        />
+        <a
+          href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.myntra.com%2Fhouse-of-pataudi-casual-shoes&psig=AOvVaw0s1fpc-ZEC1ZCzUCeamGtv&ust=1705310454138000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCPCKutHG3IMDFQAAAAAdAAAAABAk"
+        >
+          <button class="floating-btn">See More</button>
+        </a>
+      </div>
+      <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=auto&width=1280&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522floating-btn-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522floating-btn-img%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fassets.myntassets.com%252Fdpr_1.5%252Cq_60%252Cw_400%252Cc_limit%252Cfl_progressive%252Fassets%252Fimages%252F26539330%252F2023%252F12%252F20%252F451238db-6754-4f3b-a3c4-1f336415abd61703062946500HouseofPataudiMenMaroonFauxLeatherCasualSlipOnMojaris1.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520href%253D%2522https%253A%252F%252Fwww.google.com%252Furl%253Fsa%253Di%2526url%253Dhttps%25253A%25252F%25252Fwww.myntra.com%25252Fhouse-of-pataudi-casual-shoes%2526psig%253DAOvVaw0s1fpc-ZEC1ZCzUCeamGtv%2526ust%253D1705310454138000%2526source%253Dimages%2526cd%253Dvfe%2526opi%253D89978449%2526ved%253D0CBMQjRxqFwoTCPCKutHG3IMDFQAAAAAdAAAAABAk%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522floating-btn%2522%253ESee%2520More%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+        style="
+          width: 500px;
+          height: 200px;
+          margin-top: 40px;
+          margin-bottom: 20px;
+          border: 0;
+          transform: scale(1);
+          overflow: hidden;
+        "
+        sandbox="allow-scripts allow-same-origin"
+      >
+      </iframe>
+      <div class="nav-sign-box">
+        <a href="./badge.html" class="nav-sign-link-left">
+          <i class="fa-solid fa-caret-left"></i> Badge
+        </a>
+        <a href="./card.html" class="nav-sign-link-right"
+          >Card <i class="fa-solid fa-caret-right"></i
+        ></a>
+      </div>
+    </div>
+
+    <div class="carousel-btn-box">
+      <a href="./badge.html"
+        ><button class="carousel-button-prev" data-carousel-button="prev">
+          &#8656;
+        </button></a
+      >
+      <a href="card.html"
+        ><button class="carousel-button-next" data-carousel-button="next">
+          &#8658;
+        </button></a
+      >
+    </div>
+
+    <footer class="footer">
+      Created by Shubham jain
+      <div>
+        <a
+          class="footer-icon"
+          href="https://www.linkedin.com/in/shubham-jain-a5027824b/"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a class="footer-icon" href="https://github.com/shubhamjainnn"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+      </div>
+    </footer>
+  </body>
+</html>
